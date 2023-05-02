@@ -13,3 +13,9 @@
   color: white;
   background-color: black;
 }
+
+.textoDestacado {
+  color: white;
+  background-color: pink;
+  padding: 5px;
+}
