@@ -1,21 +1,12 @@
-//import { useState } from "react";
-//import Efectos from "./Clase5/Efectos";
-import Efectos2 from "./Clase5/Efectos2";
+//import EjemploPromesa from "./Clase6/EjemploPromesa";
+import EjemploPromesas2 from "./Clase6/EjemploPromesas2";
 
 const Main = () => {
-    /* const [visible, setVisible] = useState(true);
-
-    const monstrarMensaje = () => {
-        setVisible(false);
-    } */
-
     return (
         <div className="container-fluid py-5">
             <div className="row">
                 <div className="col-md-6 offset-md-3">
-                    {/* <button onClick={monstrarMensaje}>Mostrar Mensaje</button>
-                    {visible ? <Efectos /> : <p>Se ocultó el componente Efectos!</p>} */}
-                    <Efectos2 />
+                    <EjemploPromesas2 />
                 </div>
             </div>
         </div>
